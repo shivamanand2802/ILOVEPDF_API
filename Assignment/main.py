@@ -71,8 +71,8 @@ class IlovePrdfAssignment:
 
 
 obj = IlovePrdfAssignment()
-# obj.combine_pdf(["1.pdf", "2.pdf"])
+obj.combine_pdf(["1.pdf", "2.pdf"])
 # obj.separate_pdf("1.pdf")
-obj.remove_password("locked.pdf")
+# obj.remove_password("locked.pdf")
 # obj.extract_text("1.pdf")
 # obj.convert_jpg_to_pdf("1.jpg")
